@@ -18,9 +18,7 @@ header {
     font-size: 1.5rem;
     display: flex;
     justify-content: space-around;  
-}
-    
-.sobre {
+    .sobre {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -33,20 +31,19 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-    
-ul {
+    ul {
     display: flex;
     justify-content: space-around;
-}
-    
-a {
+    a {
     text-decoration: none;
     font-size: 28px;
     width: 15vw;
     color: #e4eef1;
     display: flex;
     justify-content: space-around;
+}
+    }
+}
 }
 
 //Main
