@@ -16,14 +16,12 @@ header {
   display: flex;
   justify-content: space-around;
 }
-
-.sobre {
+header .Logo {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-
-nav {
+header nav {
   color: #e4eef1;
   width: 30vw;
   padding: 0.2px;
@@ -31,17 +29,60 @@ nav {
   justify-content: space-around;
   align-items: center;
 }
-
-ul {
+header nav ul {
   display: flex;
   justify-content: space-around;
 }
-
-a {
+header nav ul a {
   text-decoration: none;
   font-size: 28px;
   width: 15vw;
   color: #e4eef1;
   display: flex;
   justify-content: space-around;
+}
+
+.Sobre {
+  background-color: #ffd9ec;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  height: 60vh;
+}
+.Sobre p {
+  font-size: 25px;
+  width: 40%;
+}
+.Sobre p img {
+  width: 365px;
+}
+
+.Concientizacao {
+  background-color: #ff69b4;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Concientizacao p {
+  font-size: 25px;
+  width: 40%;
+}
+.Concientizacao p img {
+  width: 365px;
+}
+
+.Dicas {
+  background-color: #ffd9ec;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 4vh;
+}
+.Dicas img {
+  transition: transform 0.4s ease;
+  cursor: pointer;
+  width: 20%;
 }/*# sourceMappingURL=style.css.map */

@@ -18,7 +18,7 @@ header {
     font-size: 1.5rem;
     display: flex;
     justify-content: space-around;  
-    .sobre {
+    .Logo {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -47,3 +47,50 @@ nav {
 }
 
 //Main
+
+.Sobre{
+    background-color: #ffd9ec;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    height: 60vh;
+    p{
+        font-size: 25px;
+        width: 40%;
+    img{
+            width: 365px;
+    }
+    }
+}
+
+.Concientizacao{
+    background-color: #ff69b4;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    p{
+        font-size: 25px;
+        width: 40%;
+    img{
+            width: 365px;
+    }
+    }
+}
+
+.Dicas{
+    background-color: #ffd9ec;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 4vh;
+    img{
+        transition: transform 0.4s ease;
+        cursor: pointer;
+        width: 20%;
+    }
+}
+
+//Footer
