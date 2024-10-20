@@ -85,7 +85,7 @@ nav {
     align-items: center;
     gap: 10px;
     flex-wrap: wrap;
-    padding: 4vh;
+    padding: 10vh;
     img{
         transition: transform 0.4s ease;
         cursor: pointer;
@@ -94,3 +94,19 @@ nav {
 }
 
 //Footer
+
+footer {
+    background: #ff69b4;
+    padding: 15px 30px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    p{
+        color: #e4eef1;
+        font-size: 20px;
+        font-weight: 400;
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+    }
+}
